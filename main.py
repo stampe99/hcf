@@ -5,6 +5,9 @@ def find_hcf(a,b):
            hcf = i
     return hcf
 
+lcm = first * second / find_hcf(first, second)
+print('lcm of %d and %d is %d' %(first, second, lcm))
+
 input1 = int(input('enter first number: '))
 input2 = int(input('enter second number: '))
 
